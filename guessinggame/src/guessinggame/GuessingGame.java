@@ -1,5 +1,6 @@
 package guessinggame;
 import java.util.Scanner;
+import java.lang.Math;
 import java.util.InputMismatchException;
 public class GuessingGame {
 	public static void main(String[] args) {
@@ -13,7 +14,9 @@ public class GuessingGame {
 				{
 					try {
 						if(guess > 5 || guess <= 5 ) 
-							isnumber = true;}
+							isnumber = true;
+							System.out.println("Guess again");;
+							 guess = input.nextInt();}
 					
 						catch(InputMismatchException e) {
 							System.out.println("Thats no number cheater! Try again.");
@@ -21,6 +24,7 @@ public class GuessingGame {
 						}
 					}
 				}
+			System.out.println("you win!");
 		}
 	}
 
