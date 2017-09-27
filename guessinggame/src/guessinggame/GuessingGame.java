@@ -33,5 +33,10 @@ public class GuessingGame {
 		}
 	
 	}}
+<<<<<<< HEAD
 	/*DANK MEMaEMs899k9s9*/
+=======
+	/* dank testing incoming*/
+>>>>>>> branch 'master' of https://github.com/Jsantamaria2578/Leguessinggame
 
+////////////
